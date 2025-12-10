@@ -108,6 +108,10 @@
   <subsection name="Catalina">
     <changelog>
       <fix>
+        Fix handling of <code>QSA</code> and <code>QSD</code> flags in
+        <code>RewriteValve</code>. (markt)
+      </fix>
+      <fix>
         Minor performance improvement for building filter chains. Based on
         ideas from <pr>702</pr> by Luke Miao. (remm)
       </fix>
